@@ -1,0 +1,45 @@
+
+    body {
+      width: 500px; 
+      min-height: 200%; 
+      padding: 20px;
+      background: linear-gradient(to bottom, lightpurple, white); 
+      background-color: #948bb3;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* rounded boxes */
+    .rounded-box {
+      border: 1px solid #620e4b;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
+      background: rgb(224, 224, 224); 
+
+    }
+    #showUrlsButton{
+        margin-bottom: 5px;
+        border-radius: 8px;
+        background-color: rgb(131, 156, 236);
+    }
+    .googlebing{
+        margin-bottom: 5px;
+        border-radius: 8px;
+        background-color: rgb(131, 156, 236);  
+    }
+
+    #showUrlsButton:hover{
+        background-color:royalblue;
+        transition: 0.2s;
+    }
+
+    /* data headings */
+    .data-heading {
+      font-weight: bold;
+    }
+
+    /* dropdown menu */
+    .dropdown {
+      display: none;
+    }
+  
